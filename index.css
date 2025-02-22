@@ -1,0 +1,41 @@
+body{
+    background:#F5D9D5;
+  }
+.navbar-brand{
+    color: red;
+    align-items: center;
+}
+.navbar-brand:hover{
+    color: red;
+}
+
+.nav-link:hover{
+   color: red;
+}
+.nav-link{
+    color: rgb(111, 108, 108);
+ }
+ span{
+    color: red;
+ }
+ h2{
+    color: rgb(111, 108, 108);
+    font-weight: 100;
+    font-size: 3rem;
+ }
+
+@media (max-width:1200px){
+    h2{
+        color: rgb(111, 108, 108);
+        font-weight: 100;
+        font-size: 2rem;
+     }
+} 
+
+a{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.navbar.scrolled{
+    background: rgb(222, 192, 222);
+}
